@@ -78,7 +78,7 @@ I am currently working on model-based deep learning methods in computational ima
 <a name="Toolbox" />
 
 ## Toolbox
-- Scientific Computational Imaging Code (SCICO)  [[Link](https://github.com/lanl/scico)]
+- SCICO: Scientific Computational Imaging Code  [[Link](https://github.com/lanl/scico)]
 
 
 <a name="Journal" />
