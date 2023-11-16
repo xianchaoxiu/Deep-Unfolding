@@ -1,6 +1,6 @@
 # Computational Imaging
 
-We now focus on nonconvex nonsmooth optimization problems involving l0 norm instead of convex/nonconvex surrogates.
+We now focus on model-based deep learning methods in computational imaging.
 - [Surveys](#Surveys)
 - [Constrained Methods](#Constrained_Methods)
 - [Regularized Methods](#Regularized_Methods)
