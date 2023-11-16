@@ -2,158 +2,76 @@
 
 We now focus on model-based deep learning methods in computational imaging.
 - [Surveys](#Surveys)
-- [Constrained Methods](#Constrained_Methods)
-- [Regularized Methods](#Regularized_Methods)
-- [Other Methods](#Other_Methods)
+- [Plug-and-Play Methods](#Plug-and-Play_Methods)
+- [Unrolling Methods](#Unrolling_Methods)
 - [Applications](#Applications)
 - [Journals](#Journals)
   
-<strong> Last Update: 2023/11/10 </strong>
+<strong> Last Update: 2023/11/16 </strong>
 
 
 
 <a name="Surveys" />
 
 ### Surveys
-- [2023] L0learn: A Scalable Package for Sparse Learning Using L0 Regularization, Journal of Machine Learning Research [[Paper](https://www.jmlr.org/papers/volume24/22-0189/22-0189.pdf)]  [[R](https://github.com/hazimehh/L0Learn)]
-- [2022] High-Dimensional Data Analysis with Low-Dimensional Models: Principles, Computation, and Applications, Cambridge University Press  [[Book](https://book-wright-ma.github.io/)]
-- [2022] Foundations of Computational Imaging: A Model-Based Approach, SIAM  [[Book](https://epubs.siam.org/doi/book/10.1137/1.9781611977134)]
-- [2022] 稀疏优化二阶算法研究进展, 数值计算与计算机应用 [[Paper](https://computmath.cjoe.ac.cn/szjs/CN/10.12288/szjs.s2021-0759)]
-- [2020] 稀疏优化理论与算法若干新进展, 运筹学学报 [[Paper](https://www.ort.shu.edu.cn/CN/10.15960/j.cnki.issn.1007-6093.2020.04.001)]
-- [2020] Statistical Foundations of Data Science, CRC Press  [[Book](https://www.taylorfrancis.com/books/mono/10.1201/9780429096280/statistical-foundations-data-science-jianqing-fan-runze-li-cun-hui-zhang-hui-zou)]
-- [2018] Optimization Methods for Large-Scale Machine Learning, SIAM Review  [[Paper](https://epubs.siam.org/doi/abs/10.1137/16M1080173)]
-- [2018] Sparse Optimization Theory and Methods, CRC Press [[Book](https://www.taylorfrancis.com/books/mono/10.1201/9781315113142/sparse-optimization-theory-methods-yun-bin-zhao)]
-- [2017] Feature Selection Based on Structured Sparsity: A Comprehensive Study [[Paper](https://ieeexplore.ieee.org/document/7458185)]  [[Matlab](https://github.com/guijiejie/Feature-selection/tree/master/Feature%20selection%20based%20on%20structured%20sparsity)]
-- [2017] Non-convex Optimization for Machine Learning, Foundations and Trends in Machine Learning  [[Paper](https://www.nowpublishers.com/article/Details/MAL-058)]
-- [2015] Statistical Learning with Sparsity: The Lasso and Generalizations, CRC Press [[book](https://hastie.su.domains/StatLearnSparsity_files/SLS_corrected_1.4.16.pdf)]
-- [2014] Sparse Modeling: Theory, Algorithms, and Applications, CRC Press [[Book](https://www.taylorfrancis.com/books/mono/10.1201/b17758/sparse-modeling-irina-rish-genady-grabarnik)]
-- [2012] Optimization with Sparsity-Inducing Penalties, Foundations and Trends in Machine Learning  [[Paper](https://www.nowpublishers.com/article/Details/MAL-015)]
-- [2012] 压缩感知和稀疏优化简介, 运筹学学报  [[Paper](https://www.ort.shu.edu.cn/CN/Y2012/V16/I3/49)]
-- [2012] 压缩感知, 中国科学 [[Paper](https://dds.sciengine.com/cfs/files/pdfs/view/1674-7216/bevBnqMiAzjDxRHki.pdf)]
-
-
-
-<a name="Constrained_Methods" />
-
-## Constrained Methods
-
-### First-Order Algorithms
-- [2017] Gradient Hard Thresholding Pursuit, Journal of Machine Learning Research [[Paper](https://www.jmlr.org/papers/volume18/14-415/14-415.pdf)]
-- [2017] A Convergent Iterative Hard Thresholding for Nonnegative Sparsity Optimization, Pacific Journal of Optimization  [[Paper](http://www.yokohamapublishers.jp/online2/oppjo/vol13/p325.html)] [[Matlab](https://github.com/ShenglongZhou/IIHT)]
-- [2016] On the Minimization over Sparse Symmetric Sets: Projections, Optimality Conditions, and Algorithms, Mathematics of Operations Research [[Paper](https://pubsonline.informs.org/doi/abs/10.1287/moor.2015.0722)] 
-- [2015] On Solutions of Sparsity Constrained Optimization, Journal of the Operations Research Society of China [[Paper](https://link.springer.com/article/10.1007/s40305-015-0101-3)]
-- [2013] Greedy Sparsity-Constrained Optimization, Journal of Machine Learning Research [[paper](https://www.jmlr.org/papers/volume14/bahmani13a/bahmani13a.pdf)]
-- [2013] Sparsity Constrained Nonlinear Optimization: Optimality Conditions and Algorithms, SIAM Journal on Optimization [[Paper](https://epubs.siam.org/doi/abs/10.1137/120869778)]
-- [2012] Accelerated Iterative Hard Thresholding, Signal Processing [[Paper](https://www.sciencedirect.com/science/article/abs/pii/S0165168411003197)]
-- [2011] Hard Thresholding Pursuit: An Algorithm for Compressive Sensing, SIAM Journal on Numerical Analysis [[Paper](https://epubs.siam.org/doi/abs/10.1137/100806278)]
-- [2010] Normalized Iterative Hard Thresholding: Guaranteed Stability and Performance, IEEE JSTSP [[Paper](https://ieeexplore.ieee.org/abstract/document/5419091)]
-- [2009] CoSaMP: Iterative Signal Recovery from Incomplete and Inaccurate Samples, Applied and Computational Harmonic Analysis [[Paper](https://www.sciencedirect.com/science/article/pii/S1063520308000638)] [[Matlab](https://ww2.mathworks.cn/matlabcentral/fileexchange/32402-cosamp-and-omp-for-sparse-recovery)]
-- [2007] Gradient Projection for Sparse Reconstruction: Application to Compressed Sensing and Other Inverse Problems, IEEE JSTSP [[Paper](https://ieeexplore.ieee.org/abstract/document/4407762)]
-- [2007] Signal Recovery From Random Measurements Via Orthogonal Matching Pursuit, IEEE TIT [[Paper](https://ieeexplore.ieee.org/abstract/document/4385788)]
-- [1993] Orthogonal Matching Pursuit: Recursive Function Approximation with Applications to Wavelet Decomposition, Proceedings of 27th Asilomar Conference on Signals, Systems and Computers  [[Paper](https://ieeexplore.ieee.org/abstract/document/342465)]
-
-  
-### Second-Order Algorithms
-- [2022] Sparse SVM for Sufficient Data Reduction, IEEE TPAMI [[Paper](https://ieeexplore.ieee.org/document/9415153)] [[Matlab](https://github.com/ShenglongZhou/NSSVM)]
-- [2022] Gradient Projection Newton Pursuit for Sparsity Constrained Optimization, Applied and Computational Harmonic Analysis [[Paper](https://www.sciencedirect.com/science/article/pii/S1063520322000458)] [[Matlab](https://github.com/ShenglongZhou/GPNP)]
-- [2022] A Lagrange-Newton Algorithm for Sparse Nonlinear Programming, Mathematical Programming [[Paper](https://link.springer.com/article/10.1007/s10107-021-01719-x)]
-- [2021] Newton Hard-Thresholding Pursuit for Sparse Linear Complementarity Problem via A New Merit Function, SIAM Journal on Scientific Computing  [[Paper](https://epubs.siam.org/doi/10.1137/19M1301539)] [[Matlab](https://github.com/ShenglongZhou/NHTP)]
-- [2021] Global and Quadratic Convergence of Newton Hard-Thresholding Pursuit, Journal of Machine Learning Research [[Paper](https://jmlr.org/papers/volume22/19-026/19-026.pdf)] [[Matlab](https://github.com/ShenglongZhou/NHTP)]
-- [2020] Greedy Projected Gradient-Newton Method for Sparse Logistic Regression, IEEE TNNLS [[Paper](https://ieeexplore.ieee.org/abstract/document/8688642)]
-- [2017] Newton-Type Greedy Selection Methods for L0-Constrained Minimization, IEEE TPAMI [[Paper](https://ieeexplore.ieee.org/abstract/document/7814339)]
-- [2017] Fast Newton Hard Thresholding Pursuit for Sparsity Constrained Non-Convex Optimization, KDD [[Paper](https://dl.acm.org/doi/abs/10.1145/3097983.3098165)]
-- [2013] Greedy Sparsity-Constrained Optimization, Journal of Machine Learning Research [[Paper](https://www.jmlr.org/papers/volume14/bahmani13a/bahmani13a.pdf)]
-
-
-<a name="Regularized_Methods" />
-
-## Regularized Methods
-
-### First-Order Algorithms
-- [2020] An Active Set Barzilar-Borwein Algorithm for L0 Regularized Optimization, Journal of Global Optimization [[Paper](https://link.springer.com/article/10.1007/s10898-019-00830-w)]
-- [2020] A Smoothing Proximal Gradient Algorithm for Nonsmooth Convex Regression with Cardinality Penalty, SIAM Journal on Numerical Analysis [[paper](https://epubs.siam.org/doi/abs/10.1137/18M1186009)]
-- [2018] Proximal Mapping for Symmetric Penalty and Sparsity, SIAM Journal on Optimization  [[Paper](https://epubs.siam.org/doi/abs/10.1137/17M1116544)]
-- [2016] Image Restoration by Minimizing Zero Norm of Wavelet Frame Coefficients, Inverse Problems [[Paper](https://iopscience.iop.org/article/10.1088/0266-5611/32/11/115004/meta)]
-- [2015] Homotopy Based Algorithms for L0-Regularized Least-Squares, IEEE TSP [[Paper](https://ieeexplore.ieee.org/abstract/document/7084156)]
-- [2015] CGIHT: Conjugate Gradient Iterative Hard Thresholding for Compressed Sensing and Matrix Completion, Information and Inference [[Paper](https://ieeexplore.ieee.org/abstract/document/8189185)]
-- [2014] Iterative Hard Thresholding Methods for L0 Regularized Convex Cone Programming, Mathematical Programming [[Paper](https://link.springer.com/article/10.1007/s10107-013-0714-4)]
-- [2013] Sparse Approximation via Penalty Decomposition Methods, SIAM Journal on Optimization [[Paper](https://epubs.siam.org/doi/abs/10.1137/100808071)]
-- [2009] Iterative Hard Thresholding for Compressed Sensing, Applied and Computational Harmonic Analysis [[Paper](https://www.sciencedirect.com/science/article/pii/S1063520309000384)]
-
-
-
-### Second-Order Algorithms
-- [2023] Revisiting Lq (0<=q<1) Norm Regularized Optimization, ArXiv [[Paper](https://arxiv.org/abs/2306.14394)] [[Matlab](https://github.com/ShenglongZhou/PSNP)]
-- [2022] Newton Method for L0-Regularized Optimization, Numerical Algorithms [[Paper](https://link.springer.com/article/10.1007/s11075-021-01085-x)] [[Matlab](https://github.com/ShenglongZhou/NL0R)]
-- [2018] A Constructive Approach to l0 Penalized Regression, Journal of Machine Learning Research [[Paper](https://www.jmlr.org/papers/volume19/17-194/17-194.pdf)]
-- [2015] A Primal Dual Active Set with Continuation Algorithm for the l0-Regularized Optimization Problem, Applied and Computational Harmonic Analysis  [[Paper](https://www.sciencedirect.com/science/article/pii/S1063520314001250)]
-- [2013] A Variational Approach to Sparsity Optimization Based on Lagrange Multiplier Theory, Inverse Problems [[Paper](https://iopscience.iop.org/article/10.1088/0266-5611/30/1/015001/meta)]
-
-
-
-<a name="Other_Methods" />
-
-## Other Methods
-- [2023] Sparse Plus Low Rank Matrix Decomposition: A Discrete Optimization Approach, Journal of Machine Learning Research [[Paper](https://www.jmlr.org/papers/volume24/21-1130/21-1130.pdf)] [[Julia](https://github.com/NicholasJohnson2020/SparseLowRankSoftware)]
-- [2022] Solving Large-Scale Sparse PCA to Certifiable (Near) Optimality, Journal of Machine Learning Research [[Paper](https://dl.acm.org/doi/abs/10.5555/3586589.3586602)]  [[Julia](https://github.com/ryancorywright/ScalableSPCA.jl)]
-- [2022] A Comparative Study of Multi-Objective Optimization Algorithms for Sparse Signal Reconstruction, Artificial Intelligence Review [[Paper](https://link.springer.com/article/10.1007/s10462-021-10073-5)]
+- [2023] Plug-and-Play Methods for Integrating Physical and Learned Models in Computational Imaging: Theory, Algorithms, and Applications, IEEE SPM [[Paper](https://ieeexplore.ieee.org/abstract/document/10004791)]
+- [2023] Data-Driven Single Image Deraining: A Comprehensive Review and New Perspectives, Pattern Recognition  [[Paper](https://www.sciencedirect.com/science/article/abs/pii/S0031320323004387)]
+- [2023] Image Denoising: The Deep Learning Revolution and Beyond- A Survey Paper, SIAM Journal on Imaging Sciences [[Paper](https://epubs.siam.org/doi/abs/10.1137/23M1545859)]
+- [2023] Model-Based Deep Learning, P IEEE [[Paper](https://ieeexplore.ieee.org/abstract/document/10056957)]
+- [2023] Solving Inverse Problems With Deep Neural Networks – Robustness Included? IEEE TPAMI [[Paper](https://ieeexplore.ieee.org/abstract/document/9705105)]
+- [2022] Foundations of Computational Imaging: A Model-Based Approach, SIAM [Book](https://epubs.siam.org/doi/book/10.1137/1.9781611977134)]
 - [2022] Learning to Optimize: A Primer and A Benchmark, Journal of Machine Learning Research [[Paper](https://dl.acm.org/doi/abs/10.5555/3586589.3586778)] [[Python](https://github.com/VITA-Group/Open-L2O)]
-- [2020] ADMM-CSNet: A Deep Learning Approach for Image Compressive Sensing, IEEE TPAMI [[Paper](https://ieeexplore.ieee.org/abstract/document/8550778)] [[Python](https://github.com/yangyan92/Pytorch_ADMM-CSNet)]
+- [2021] Algorithm Unrolling: Interpretable, Efficient Deep Learning for Signal and Image Processing, IEEE SPM  [[Paper](https://ieeexplore.ieee.org/abstract/document/9363511)]
+- [2020] Image Reconstruction: From Sparsity to Data-Adaptive Methods and Machine Learning, P IEEE [[Paper](https://ieeexplore.ieee.org/abstract/document/8844696)]
+- [2018] Using Deep Neural Networks for Inverse Problems in Imaging: Beyond Analytical Methods, IEEE SPM  [[Paper](https://ieeexplore.ieee.org/abstract/document/8253590)]
+
+<a name="Plug-and-Play_Methods" />
+
+## Plug-and-Play Methods
+- [2022] Tuning-Free Plug-and-Play Proximal Algorithm for Inverse Imaging Problems, Journal of Machine Learning Research [[Paper](https://jmlr.org/papers/v23/20-1297.html)] [[Python](https://github.com/Vandermode/TFPnP)]
+- [2021] Scalable Plug-and-Play ADMM With Convergence Guarantees, IEEE TCI  [[Paper](https://ieeexplore.ieee.org/abstract/document/9473005)] [[Matlab](https://github.com/rgavaska/Convergent-PnP)]
+- [2021] Plug-and-Play Image Restoration with Deep Denoiser Prior, IEEE TAMI  [[Paper](https://ieeexplore.ieee.org/abstract/document/7744574)] [[Python](https://github.com/cszn/DPIR)]
+- [2019] Regularization by Denoising: Clarifications and New Interpretations, IEEE TCI  [[Paper](https://ieeexplore.ieee.org/abstract/document/8528509)] [[Matlab](https://github.com/edward-reehorst/On_RED)]
+- [2019] An Online Plug-and-Play Algorithm for Regularized Image Reconstruction, IEEE TCI  [[Paper](https://ieeexplore.ieee.org/abstract/document/8616843)] [[Matlab](https://github.com/sunyumark/2019-TCI-OnlinePnP)]
+- [2019] Plug-and-Play Methods Provably Converge with Properly Trained Denoisers, ICML [[Paper](https://proceedings.mlr.press/v97/ryu19a.html)] [[Python](https://github.com/uclaopt/Provable_Plug_and_Play)]
 - [2018] FFDNet: Toward a Fast and Flexible Solution for CNN-Based Image Denoising, IEEE TIP [[Paper](https://ieeexplore.ieee.org/abstract/document/8365806)] [[Matlab](https://github.com/cszn/FFDNet)]
+- [2018] Plug-and-Play Unplugged: Optimization-Free Reconstruction Using Consensus Equilibrium, SIAM Journal on Imaging Sciences  [[Paper](https://epubs.siam.org/doi/abs/10.1137/17M1122451)]  [[Python](https://github.com/gbuzzard/PnP-MACE)]
+- [2017] The Little Engine That Could: Regularization by Denoising (RED), SIAM Journal on Imaging Sciences  [[Paper](https://epubs.siam.org/doi/abs/10.1137/16M1102884)]  [[Matlab](https://github.com/google/RED)]
+- [2017] Plug-and-Play ADMM for Image Restoration: Fixed-Point Convergence and Applications, IEEE TCI  [[Paper](https://ieeexplore.ieee.org/abstract/document/7744574)] [[Matlab](https://www.mathworks.com/matlabcentral/fileexchange/60641-plug-and-play-admm-for-image-restoration)]
+- [2017] Learning Proximal Operators: Using Denoising Networks for Regularizing Inverse Imaging Problems, ICCV  [[Paper](https://openaccess.thecvf.com/content_iccv_2017/html/Meinhardt_Learning_Proximal_Operators_ICCV_2017_paper.html)]  [[Python](https://github.com/tum-vision/learn_prox_ops)]
+- [2013] Plug-and-Play priors for model based reconstruction, IEEE GlobalSIP  [[Paper](https://ieeexplore.ieee.org/abstract/document/6737048)]  [[Matlab](https://github.com/svvenkatakrishnan/plug-and-play-priors)]
+
+
+<a name="Unrolling_Methods" />
+
+## Unrolling Methods
+- [2021] Deep Equilibrium Architectures for Inverse Problems in Imaging, IEEE TCI  [[Paper](https://ieeexplore.ieee.org/abstract/document/9565378)] [[Python](https://github.com/dgilton/deep_equilibrium_inverse)]
+- [2020] Efficient and Interpretable Deep Blind Image Deblurring Via Algorithm Unrolling, IEEE TCI  [[Paper](https://ieeexplore.ieee.org/abstract/document/8950351)]
+- [2020] ADMM-CSNet: A Deep Learning Approach for Image Compressive Sensing, IEEE TPAMI [[Paper](https://ieeexplore.ieee.org/abstract/document/8550778)] [[Python](https://github.com/yangyan92/Pytorch_ADMM-CSNet)]
+- [2020] On the Convergence of Learning-Based Iterative Methods for Nonconvex Inverse Problemss, IEEE TPAMI [[Paper](https://ieeexplore.ieee.org/abstract/document/8727950)] [[Matlab](https://github.com/Heyi007/FIMAt)]
 - [2018] ISTA-Net: Interpretable Optimization-Inspired Deep Network for Image Compressive Sensing, CVPR [[Paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Zhang_ISTA-Net_Interpretable_Optimization-Inspired_CVPR_2018_paper.html)] [[Python](https://github.com/jianzhangcs/ISTA-Net-PyTorch)]
 - [2018] Theoretical Linear Convergence of Unfolded ISTA and Its Practical Weights and Thresholds, NIPS [[Paper](https://proceedings.neurips.cc/paper/2018/hash/cf8c9be2a4508a24ae92c9d3d379131d-Abstract.html)] [[Python](https://github.com/xchen-tamu/linear-lista-cpss)]
 - [2017] Compressed Sensing using Generative Models, ICML  [[Paper](http://proceedings.mlr.press/v70/bora17a.html)]
-- [2016] Group-Sparse Model Selection: Hardness and Relaxations, IEEE TIT [[Paper](https://ieeexplore.ieee.org/abstract/document/7549088)]
 - [2016] Learning to Learn by Gradient Descent by Gradient Descent, NIPS [[Paper](https://proceedings.neurips.cc/paper_files/paper/2016/hash/fb87582825f9d28a8d42c5e5e5e8b23d-Abstract.html)] [[Python](https://github.com/chenwydj/learning-to-learn-by-gradient-descent-by-gradient-descent)]
 - [2015] Learning Efficient Sparse and Low Rank Models, IEEE TPAMI [[Paper](https://ieeexplore.ieee.org/abstract/document/7010964)]
 - [2010] Learning Fast Approximations of Sparse Coding, ICML [[Paper](https://dl.acm.org/doi/abs/10.5555/3104322.3104374)] [[Matlab](https://github.com/minhnhat93/lfa_sc)]
-
 
 
 <a name="Applications" />
 
 ## Applications
 
-### Feature Selection
-- [2023] Structured Sparse Non-Negative Matrix Factorization With L2,0-Norm, IEEE TKDE [[Paper](https://ieeexplore.ieee.org/abstract/document/9893402)] [[Matlab](https://github.com/wenwenmin/SSNMF)]
-- [2023] Structured Sparsity Optimization With Non-Convex Surrogates of L2,0-Norm: A Unified Algorithmic Framework, IEEE TPAMI [[Paper](https://ieeexplore.ieee.org/abstract/document/9916142)]
-- [2023] Learning Feature-Sparse Principal Subspace, IEEE TPAMI [[Paper](https://ieeexplore.ieee.org/abstract/document/9941008)] [[Matlab](https://github.com/icety3/FSPCA)]
-- [2023] Fast Unsupervised Feature Selection With Bipartite Graph and L2,0-Norm Constraint, IEEE TKDE [[Paper](https://ieeexplore.ieee.org/abstract/document/9695194)]
-- [2022] Column L2,0-norm Regularized Factorization Model of Low-Rank Matrix Recovery and Its Computation, SIAM Journal on Optimization [[Paper](https://epubs.siam.org/doi/abs/10.1137/20M136205X)]
-- [2022] Unsupervised Feature Selection With Constrained l2,0-Norm and Optimized Graph, IEEE TNNLS [[Paper](https://ieeexplore.ieee.org/abstract/document/9309097)]
-- [2022] Low-Rank Tensor Learning with Nonconvex Overlapped Nuclear Norm Regularization, Journal of Machine Learning Research  [[Paper](https://dl.acm.org/doi/abs/10.5555/3586589.3586725)]  [[Matlab](https://github.com/quanmingyao/FasTer)]
-- [2021] Deep K-SVD Denoising, IEEE TIP [[Paper](https://ieeexplore.ieee.org/abstract/document/9464674)]
-- [2019] Optimization Problems Involving Group Sparsity Terms, Mathematical Programming [[Paper](https://link.springer.com/article/10.1007/s10107-018-1277-1)]
-- [2019] Large-Scale Low-Rank Matrix Learning with Nonconvex Regularizers, IEEE TPAMI  [[Paper](https://ieeexplore.ieee.org/abstract/document/8416722)]  [[Matlab](https://github.com/quanmingyao/FaNCL)]
-- [2017] Tree Structure Sparsity Pattern Guided Convex Optimization for Compressive Sensing of Large-Scale Images, IEEE TIP [[Paper](https://ieeexplore.ieee.org/abstract/document/7762896)]
-- [2016] Structured Sparse Regression via Greedy Hard Thresholding, NIPS [[Paper](https://proceedings.neurips.cc/paper_files/paper/2016/hash/8e82ab7243b7c66d768f1b8ce1c967eb-Abstract.html)]
-- [2016] Group-Sparse Model Selection: Hardness and Relaxations, IEEE TIT [[Paper](https://ieeexplore.ieee.org/abstract/document/7549088)]
-- [2013] Exact Top-k Feature Selection via L2,0-norm Constraint, IJCAI [[Paper](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=246737333a8e2e42b92be7a79f9508700b64c290)]  [[Matlab](https://github.com/guijiejie/Feature-selection/tree/master/Feature%20selection%20based%20on%20structured%20sparsity/Exact%20top-k%20feature%20selection%20via%20l2%2C0-norm%20constraint)]
-- [2011] Structured Compressed Sensing: From Theory to Applications, IEEE TIP [[Paper](https://ieeexplore.ieee.org/abstract/document/5954192)]
-- [2009] Learning with Structured Sparsity, ICML [[Paper](https://dl.acm.org/doi/abs/10.1145/1553374.1553429)]
-
-
-
-
-### Computational Imaging
-- [2023] Plug-and-Play Methods for Integrating Physical and Learned Models in Computational Imaging: Theory, Algorithms, and Applications, IEEE SPM [[Paper](https://ieeexplore.ieee.org/abstract/document/10004791)]
-- [2023] Image Denoising: The Deep Learning Revolution and Beyond- A Survey Paper, SIAM Journal on Imaging Sciences [[Paper](https://epubs.siam.org/doi/abs/10.1137/23M1545859)]
-- [2023] Model-Based Deep Learning, P IEEE [[Paper](https://ieeexplore.ieee.org/abstract/document/10056957)]
-- [2023] Solving Inverse Problems With Deep Neural Networks – Robustness Included? IEEE TPAMI [[Paper](https://ieeexplore.ieee.org/abstract/document/9705105)]
-- [2022] Tuning-Free Plug-and-Play Proximal Algorithm for Inverse Imaging Problems, Journal of Machine Learning Research [[Paper](https://jmlr.org/papers/v23/20-1297.html)] [[Python](https://github.com/Vandermode/TFPnP)]
-- [2021] Algorithm Unrolling: Interpretable, Efficient Deep Learning for Signal and Image Processing, IEEE SPM  [[Paper](https://ieeexplore.ieee.org/abstract/document/9363511)]
-- [2020] Image Reconstruction: From Sparsity to Data-Adaptive Methods and Machine Learning, P IEEE [[Paper](https://ieeexplore.ieee.org/abstract/document/8844696)]
-- [2020] On the Convergence of Learning-Based Iterative Methods for Nonconvex Inverse Problemss, IEEE TPAMI [[Paper](https://ieeexplore.ieee.org/abstract/document/8727950)] [[Matlab](https://github.com/Heyi007/FIMAt)]
-- [2018] Plug-and-Play Unplugged: Optimization-Free Reconstruction Using Consensus Equilibrium, SIAM Journal on Imaging Sciences  [[Paper](https://epubs.siam.org/doi/abs/10.1137/17M1122451)]  [[Python](https://github.com/gbuzzard/PnP-MACE)]
-
-
-
-
+- [2021] Deep K-SVD Denoising, IEEE TIP  [[Paper](https://ieeexplore.ieee.org/abstract/document/9464674)] [[Python](https://github.com/meyerscetbon/Deep-K-SVD)]
+- [2020] Deep Unfolded Robust PCA With Application to Clutter Suppression in Ultrasound, IEEE TCI  [[Paper](https://ieeexplore.ieee.org/abstract/document/8836615)] [[Matlab](https://github.com/KrakenLeaf/CORONA)]
+- [2017] Learning Proximal Operators: Using Denoising Networks for Regularizing Inverse Imaging Problems, ICCV [[Paper](https://openaccess.thecvf.com/content_iccv_2017/html/Meinhardt_Learning_Proximal_Operators_ICCV_2017_paper.html)] [[Python](https://github.com/tum-vision/learn_prox_ops)]
+- [2017] Deep Convolutional Neural Network for Inverse Problems in Imaging, IEEE TIP  [[Paper](https://ieeexplore.ieee.org/abstract/document/7949028)] [[Matlab](https://github.com/panakino/FBPConvNet)]
+- [2016] Learning to Deblur, IEEE TPAMI  [[Paper](https://ieeexplore.ieee.org/abstract/document/7274732)] 
+- [2016] From Denoising to Compressed Sensing, IEEE TIT  [[Paper](https://ieeexplore.ieee.org/abstract/document/7457256)]  [[Matlab](https://github.com/ricedsp/D-AMP_Toolbox)]
 
 
 <a name="Journals" />
 
 ## Journals
-- Mathematical Programming [[Link](https://www.springer.com/journal/10107/)]
-- SIAM Journal on Optimization [[Link](https://www.siam.org/publications/journals/siam-journal-on-optimization-siopt)]
-- Mathematics of Operations Research [[Link](http://mor.journal.informs.org/)]
+- IEEE Transactions on Pattern Analysis and Machine Intelligence [[Link](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34)]
+- IEEE Transactions on Image Processing [[Link](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=83)]
+- IEEE Transactions on Computational Imaging [[Link](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6745852)]
