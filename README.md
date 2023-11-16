@@ -1,6 +1,6 @@
 # Computational Imaging
 
-We now focus on model-based deep learning methods in computational imaging.
+I am currently working on model-based deep learning methods in computational imaging.
 - [Surveys](#Surveys)
 - [Plug-and-Play Methods](#Plug-and-Play_Methods)
 - [Unrolling Methods](#Unrolling_Methods)
