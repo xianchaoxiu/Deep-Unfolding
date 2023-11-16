@@ -38,7 +38,7 @@ I am currently working on model-based deep learning methods in computational ima
 - [2017] The Little Engine That Could: Regularization by Denoising (RED), SIAM Journal on Imaging Sciences  [[Paper](https://epubs.siam.org/doi/abs/10.1137/16M1102884)]  [[Matlab](https://github.com/google/RED)]
 - [2017] Plug-and-Play ADMM for Image Restoration: Fixed-Point Convergence and Applications, IEEE TCI  [[Paper](https://ieeexplore.ieee.org/abstract/document/7744574)] [[Matlab](https://www.mathworks.com/matlabcentral/fileexchange/60641-plug-and-play-admm-for-image-restoration)]
 - [2017] Learning Proximal Operators: Using Denoising Networks for Regularizing Inverse Imaging Problems, ICCV  [[Paper](https://openaccess.thecvf.com/content_iccv_2017/html/Meinhardt_Learning_Proximal_Operators_ICCV_2017_paper.html)]  [[Python](https://github.com/tum-vision/learn_prox_ops)]
-- [2013] Plug-and-Play priors for model based reconstruction, IEEE GlobalSIP  [[Paper](https://ieeexplore.ieee.org/abstract/document/6737048)]  [[Matlab](https://github.com/svvenkatakrishnan/plug-and-play-priors)]
+- [2013] Plug-and-Play Priors for Model Based Reconstruction, IEEE GlobalSIP  [[Paper](https://ieeexplore.ieee.org/abstract/document/6737048)]  [[Matlab](https://github.com/svvenkatakrishnan/plug-and-play-priors)]
 
 
 <a name="Unrolling_Methods" />
@@ -59,8 +59,13 @@ I am currently working on model-based deep learning methods in computational ima
 <a name="Applications" />
 
 ## Applications
-
+- [2023] PnP-ReG: Learned Regularizing Gradient for Plug-and-Play Gradient Descent, SIAM Journal on Imaging Sciences [[Paper](https://epubs.siam.org/doi/abs/10.1137/22M1490843)] 
+- [2023] Preconditioned Plug-and-Play ADMM with Locally Adjustable Denoiser for Image Restoration, SIAM Journal on Imaging Sciences [[Paper](https://epubs.siam.org/doi/abs/10.1137/22M1504809)] 
+- [2023] Tuning-free Plug-and-Play Hyperspectral Image Deconvolution with Deep Priors, IEEE TGRS [[Paper](https://ieeexplore.ieee.org/abstract/document/10061448)] [[Python](https://github.com/xiuheng-wang/Tuning_free_PnP_HSI_deconvolution)]  
+- [2022] Proximal Denoiser for Convergent Plug-and-Play Optimization with Nonconvex Regularization, ICML [[Paper](https://proceedings.mlr.press/v162/hurault22a.html)] [[Python](https://github.com/samuro95/Prox-PnP)] 
+- [2022] Truncated Residual Based Plug-and-Play ADMM Algorithm for MRI Reconstruction, IEEE TCI  [[Paper](https://ieeexplore.ieee.org/abstract/document/9693216)] [[Python](https://github.com/Houruizhi/TRPA)] 
 - [2021] Deep K-SVD Denoising, IEEE TIP  [[Paper](https://ieeexplore.ieee.org/abstract/document/9464674)] [[Python](https://github.com/meyerscetbon/Deep-K-SVD)]
+- [2020] Plug-and-Play Algorithms for Large-Scale Snapshot Compressive Imaging, CVPR [[Paper](https://ieeexplore.ieee.org/document/9156491)] [[Matlab](https://github.com/liuyang12/PnP-SCI)]
 - [2020] Deep Unfolded Robust PCA With Application to Clutter Suppression in Ultrasound, IEEE TCI  [[Paper](https://ieeexplore.ieee.org/abstract/document/8836615)] [[Matlab](https://github.com/KrakenLeaf/CORONA)]
 - [2017] Learning Proximal Operators: Using Denoising Networks for Regularizing Inverse Imaging Problems, ICCV [[Paper](https://openaccess.thecvf.com/content_iccv_2017/html/Meinhardt_Learning_Proximal_Operators_ICCV_2017_paper.html)] [[Python](https://github.com/tum-vision/learn_prox_ops)]
 - [2017] Deep Convolutional Neural Network for Inverse Problems in Imaging, IEEE TIP  [[Paper](https://ieeexplore.ieee.org/abstract/document/7949028)] [[Matlab](https://github.com/panakino/FBPConvNet)]
@@ -71,6 +76,6 @@ I am currently working on model-based deep learning methods in computational ima
 <a name="Journals" />
 
 ## Journals
-- IEEE Transactions on Pattern Analysis and Machine Intelligence [[Link](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34)]
 - IEEE Transactions on Image Processing [[Link](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=83)]
 - IEEE Transactions on Computational Imaging [[Link](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6745852)]
+- SIAM Journal on Imaging Sciences [[Link](https://epubs.siam.org/journal/sjisbi)]
