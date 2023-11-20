@@ -16,15 +16,19 @@ I am currently working on model-data-driven methods in computational imaging.
 
 ### Surveys
 - [2023] Plug-and-Play Methods for Integrating Physical and Learned Models in Computational Imaging: Theory, Algorithms, and Applications, IEEE SPM [[Paper](https://ieeexplore.ieee.org/abstract/document/10004791)]
-- [2023] Data-Driven Single Image Deraining: A Comprehensive Review and New Perspectives, Pattern Recognition  [[Paper](https://www.sciencedirect.com/science/article/abs/pii/S0031320323004387)]
+- [2023] Data-Driven Single Image Deraining: A Comprehensive Review and New Perspectives, Pattern Recognition [[Paper](https://www.sciencedirect.com/science/article/abs/pii/S0031320323004387)]
 - [2023] Image Denoising: The Deep Learning Revolution and Beyond- A Survey Paper, SIAM Journal on Imaging Sciences [[Paper](https://epubs.siam.org/doi/abs/10.1137/23M1545859)]
-- [2023] Model-Based Deep Learning, P IEEE [[Paper](https://ieeexplore.ieee.org/abstract/document/10056957)]
+- [2023] Model-Based Deep Learning, Foundations and Trends in Signal Processing [[Paper](https://www.nowpublishers.com/article/Details/SIG-113)] [[Python](https://github.com/ShlezingerLab/MBDL_Book)]
+- [2023] Signal Decomposition Using Masked Proximal Operators, Foundations and Trends in Signal Processing [[Paper](https://www.nowpublishers.com/article/Details/SIG-122)]
 - [2023] Solving Inverse Problems With Deep Neural Networks – Robustness Included? IEEE TPAMI [[Paper](https://ieeexplore.ieee.org/abstract/document/9705105)]
 - [2022] Foundations of Computational Imaging: A Model-Based Approach, SIAM [Book](https://epubs.siam.org/doi/book/10.1137/1.9781611977134)]
 - [2022] Learning to Optimize: A Primer and A Benchmark, Journal of Machine Learning Research [[Paper](https://dl.acm.org/doi/abs/10.5555/3586589.3586778)] [[Python](https://github.com/VITA-Group/Open-L2O)]
 - [2021] Algorithm Unrolling: Interpretable, Efficient Deep Learning for Signal and Image Processing, IEEE SPM  [[Paper](https://ieeexplore.ieee.org/abstract/document/9363511)]
 - [2020] Image Reconstruction: From Sparsity to Data-Adaptive Methods and Machine Learning, P IEEE [[Paper](https://ieeexplore.ieee.org/abstract/document/8844696)]
 - [2018] Using Deep Neural Networks for Inverse Problems in Imaging: Beyond Analytical Methods, IEEE SPM  [[Paper](https://ieeexplore.ieee.org/abstract/document/8253590)]
+- Deep Learning
+Understanding Machine Learning: From Theory to Algorithms
+
 
 <a name="Plug-and-Play_Methods" />
 
@@ -68,7 +72,7 @@ I am currently working on model-data-driven methods in computational imaging.
 - [2022] Truncated Residual Based Plug-and-Play ADMM Algorithm for MRI Reconstruction, IEEE TCI  [[Paper](https://ieeexplore.ieee.org/abstract/document/9693216)] [[Python](https://github.com/Houruizhi/TRPA)] 
 - [2021] Deep K-SVD Denoising, IEEE TIP  [[Paper](https://ieeexplore.ieee.org/abstract/document/9464674)] [[Python](https://github.com/meyerscetbon/Deep-K-SVD)]
 - [2020] Plug-and-Play Algorithms for Large-Scale Snapshot Compressive Imaging, CVPR [[Paper](https://ieeexplore.ieee.org/document/9156491)] [[Matlab](https://github.com/liuyang12/PnP-SCI)]
-- [2020] Deep Unfolded Robust PCA With Application to Clutter Suppression in Ultrasound, IEEE TCI  [[Paper](https://ieeexplore.ieee.org/abstract/document/8836615)] [[Matlab](https://github.com/KrakenLeaf/CORONA)]
+- [2020] Deep Unfolded Robust PCA With Application to Clutter Suppression in Ultrasound, IEEE TCI  [[Paper](https://ieeexplore.ieee.org/abstract/document/8836615)] [[Pyhton](https://github.com/KrakenLeaf/CORONA)]
 - [2017] Learning Proximal Operators: Using Denoising Networks for Regularizing Inverse Imaging Problems, ICCV [[Paper](https://openaccess.thecvf.com/content_iccv_2017/html/Meinhardt_Learning_Proximal_Operators_ICCV_2017_paper.html)] [[Python](https://github.com/tum-vision/learn_prox_ops)]
 - [2017] Deep Convolutional Neural Network for Inverse Problems in Imaging, IEEE TIP  [[Paper](https://ieeexplore.ieee.org/abstract/document/7949028)] [[Matlab](https://github.com/panakino/FBPConvNet)]
 - [2016] Learning to Deblur, IEEE TPAMI  [[Paper](https://ieeexplore.ieee.org/abstract/document/7274732)] 
