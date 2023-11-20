@@ -2,7 +2,7 @@
 I am currently working on model-data-driven methods in computational imaging.
 - [Surveys](#Surveys)
 - [Plug-and-Play Methods](#Plug-and-Play_Methods)
-- [Unrolling Methods](#Unrolling_Methods)
+- [Deep Unfolding](#Deep_Unfolding)
 - [Applications](#Applications)
 - [Journals](#Journals)
 - [Tools](#Tools)
@@ -28,11 +28,19 @@ I am currently working on model-data-driven methods in computational imaging.
 - [2018] Using Deep Neural Networks for Inverse Problems in Imaging: Beyond Analytical Methods, IEEE SPM  [[Paper](https://ieeexplore.ieee.org/abstract/document/8253590)]
 - Deep Learning
 Understanding Machine Learning: From Theory to Algorithms
-
+Deep unfolding for communications systems: A survey and some new directions
 
 <a name="Plug-and-Play_Methods" />
 
 ## Plug-and-Play Methods
+
+- [2023] PnP-ReG: Learned Regularizing Gradient for Plug-and-Play Gradient Descent, SIAM Journal on Imaging Sciences [[Paper](https://epubs.siam.org/doi/abs/10.1137/22M1490843)] 
+- [2023] Preconditioned Plug-and-Play ADMM with Locally Adjustable Denoiser for Image Restoration, SIAM Journal on Imaging Sciences [[Paper](https://epubs.siam.org/doi/abs/10.1137/22M1504809)] 
+- [2023] Tuning-free Plug-and-Play Hyperspectral Image Deconvolution with Deep Priors, IEEE TGRS [[Paper](https://ieeexplore.ieee.org/abstract/document/10061448)] [[Python](https://github.com/xiuheng-wang/Tuning_free_PnP_HSI_deconvolution)]  
+- [2022] Proximal Denoiser for Convergent Plug-and-Play Optimization with Nonconvex Regularization, ICML [[Paper](https://proceedings.mlr.press/v162/hurault22a.html)] [[Python](https://github.com/samuro95/Prox-PnP)] 
+- [2022] Truncated Residual Based Plug-and-Play ADMM Algorithm for MRI Reconstruction, IEEE TCI  [[Paper](https://ieeexplore.ieee.org/abstract/document/9693216)] [[Python](https://github.com/Houruizhi/TRPA)] 
+- [2020] Plug-and-Play Algorithms for Large-Scale Snapshot Compressive Imaging, CVPR [[Paper](https://ieeexplore.ieee.org/document/9156491)] [[Matlab](https://github.com/liuyang12/PnP-SCI)]
+- 
 - [2022] Tuning-Free Plug-and-Play Proximal Algorithm for Inverse Imaging Problems, Journal of Machine Learning Research [[Paper](https://jmlr.org/papers/v23/20-1297.html)] [[Python](https://github.com/Vandermode/TFPnP)]
 - [2021] Scalable Plug-and-Play ADMM With Convergence Guarantees, IEEE TCI  [[Paper](https://ieeexplore.ieee.org/abstract/document/9473005)] [[Matlab](https://github.com/rgavaska/Convergent-PnP)]
 - [2021] Plug-and-Play Image Restoration with Deep Denoiser Prior, IEEE TAMI  [[Paper](https://ieeexplore.ieee.org/abstract/document/7744574)] [[Python](https://github.com/cszn/DPIR)]
@@ -47,17 +55,32 @@ Understanding Machine Learning: From Theory to Algorithms
 - [2013] Plug-and-Play Priors for Model Based Reconstruction, IEEE GlobalSIP  [[Paper](https://ieeexplore.ieee.org/abstract/document/6737048)]  [[Matlab](https://github.com/svvenkatakrishnan/plug-and-play-priors)]
 
 
-<a name="Unrolling_Methods" />
+<a name="Deep_Unfolding" />
 
-## Unrolling Methods
+## Deep Unfolding
+LoRD-Net: Unfolded deep detection network with low-resolution receivers
+"Jointly sparse signal recovery and support recovery via deep learning with applications in MIMO-based grant-free random acces
+Iterative algorithm induced deep-unfolding neural networks: Precoding design for multiuser MIMO systems
 - [2021] Deep Equilibrium Architectures for Inverse Problems in Imaging, IEEE TCI  [[Paper](https://ieeexplore.ieee.org/abstract/document/9565378)] [[Python](https://github.com/dgilton/deep_equilibrium_inverse)]
+- Deep unfolding network for image super-resolution
+- Unfolding the alternating optimization for blind super resolution
+- Deep learning in medical ultrasound—From image formation to image analysis
+- Convolutional dictionary learning based auto-encoders for natural exponential-family distributions
 - [2020] Efficient and Interpretable Deep Blind Image Deblurring Via Algorithm Unrolling, IEEE TCI  [[Paper](https://ieeexplore.ieee.org/abstract/document/8950351)]
 - [2020] ADMM-CSNet: A Deep Learning Approach for Image Compressive Sensing, IEEE TPAMI [[Paper](https://ieeexplore.ieee.org/abstract/document/8550778)] [[Python](https://github.com/yangyan92/Pytorch_ADMM-CSNet)]
+- Convolutional dictionary learning based auto-encoders for natural exponential-family distributions
+- Model-driven deep learning for MIMO detection
+- [2020] Deep Unfolded Robust PCA With Application to Clutter Suppression in Ultrasound, IEEE TCI  [[Paper](https://ieeexplore.ieee.org/abstract/document/8836615)] [[Pyhton](https://github.com/KrakenLeaf/CORONA)]
+- "Efficient and interpretable deep blind image deblurring via algorithm unrolling
+- Learning to detect
 - [2020] On the Convergence of Learning-Based Iterative Methods for Nonconvex Inverse Problemss, IEEE TPAMI [[Paper](https://ieeexplore.ieee.org/abstract/document/8727950)] [[Matlab](https://github.com/Heyi007/FIMAt)]
+- Learning a compressed sensing measurement matrix via gradient unrolling
 - [2018] ISTA-Net: Interpretable Optimization-Inspired Deep Network for Image Compressive Sensing, CVPR [[Paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Zhang_ISTA-Net_Interpretable_Optimization-Inspired_CVPR_2018_paper.html)] [[Python](https://github.com/jianzhangcs/ISTA-Net-PyTorch)]
 - [2018] Theoretical Linear Convergence of Unfolded ISTA and Its Practical Weights and Thresholds, NIPS [[Paper](https://proceedings.neurips.cc/paper/2018/hash/cf8c9be2a4508a24ae92c9d3d379131d-Abstract.html)] [[Python](https://github.com/xchen-tamu/linear-lista-cpss)]
 - [2017] Compressed Sensing using Generative Models, ICML  [[Paper](http://proceedings.mlr.press/v70/bora17a.html)]
-- [2016] Learning to Learn by Gradient Descent by Gradient Descent, NIPS [[Paper](https://proceedings.neurips.cc/paper_files/paper/2016/hash/fb87582825f9d28a8d42c5e5e5e8b23d-Abstract.html)] [[Python](https://github.com/chenwydj/learning-to-learn-by-gradient-descent-by-gradient-descent)]
+- Learned D-AMP: Principled neural network based compressive image recovery
+- [2016] Learning to Learn by Gradient Descent by Gradient Descent, NIPS [[Paper]
+- (https://proceedings.neurips.cc/paper_files/paper/2016/hash/fb87582825f9d28a8d42c5e5e5e8b23d-Abstract.html)] [[Python](https://github.com/chenwydj/learning-to-learn-by-gradient-descent-by-gradient-descent)]
 - [2015] Learning Efficient Sparse and Low Rank Models, IEEE TPAMI [[Paper](https://ieeexplore.ieee.org/abstract/document/7010964)]
 - [2010] Learning Fast Approximations of Sparse Coding, ICML [[Paper](https://dl.acm.org/doi/abs/10.5555/3104322.3104374)] [[Matlab](https://github.com/minhnhat93/lfa_sc)]
 
@@ -65,14 +88,9 @@ Understanding Machine Learning: From Theory to Algorithms
 <a name="Applications" />
 
 ## Applications
-- [2023] PnP-ReG: Learned Regularizing Gradient for Plug-and-Play Gradient Descent, SIAM Journal on Imaging Sciences [[Paper](https://epubs.siam.org/doi/abs/10.1137/22M1490843)] 
-- [2023] Preconditioned Plug-and-Play ADMM with Locally Adjustable Denoiser for Image Restoration, SIAM Journal on Imaging Sciences [[Paper](https://epubs.siam.org/doi/abs/10.1137/22M1504809)] 
-- [2023] Tuning-free Plug-and-Play Hyperspectral Image Deconvolution with Deep Priors, IEEE TGRS [[Paper](https://ieeexplore.ieee.org/abstract/document/10061448)] [[Python](https://github.com/xiuheng-wang/Tuning_free_PnP_HSI_deconvolution)]  
-- [2022] Proximal Denoiser for Convergent Plug-and-Play Optimization with Nonconvex Regularization, ICML [[Paper](https://proceedings.mlr.press/v162/hurault22a.html)] [[Python](https://github.com/samuro95/Prox-PnP)] 
-- [2022] Truncated Residual Based Plug-and-Play ADMM Algorithm for MRI Reconstruction, IEEE TCI  [[Paper](https://ieeexplore.ieee.org/abstract/document/9693216)] [[Python](https://github.com/Houruizhi/TRPA)] 
+
 - [2021] Deep K-SVD Denoising, IEEE TIP  [[Paper](https://ieeexplore.ieee.org/abstract/document/9464674)] [[Python](https://github.com/meyerscetbon/Deep-K-SVD)]
-- [2020] Plug-and-Play Algorithms for Large-Scale Snapshot Compressive Imaging, CVPR [[Paper](https://ieeexplore.ieee.org/document/9156491)] [[Matlab](https://github.com/liuyang12/PnP-SCI)]
-- [2020] Deep Unfolded Robust PCA With Application to Clutter Suppression in Ultrasound, IEEE TCI  [[Paper](https://ieeexplore.ieee.org/abstract/document/8836615)] [[Pyhton](https://github.com/KrakenLeaf/CORONA)]
+
 - [2017] Learning Proximal Operators: Using Denoising Networks for Regularizing Inverse Imaging Problems, ICCV [[Paper](https://openaccess.thecvf.com/content_iccv_2017/html/Meinhardt_Learning_Proximal_Operators_ICCV_2017_paper.html)] [[Python](https://github.com/tum-vision/learn_prox_ops)]
 - [2017] Deep Convolutional Neural Network for Inverse Problems in Imaging, IEEE TIP  [[Paper](https://ieeexplore.ieee.org/abstract/document/7949028)] [[Matlab](https://github.com/panakino/FBPConvNet)]
 - [2016] Learning to Deblur, IEEE TPAMI  [[Paper](https://ieeexplore.ieee.org/abstract/document/7274732)] 
