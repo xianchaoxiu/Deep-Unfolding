@@ -1,7 +1,7 @@
 # Computational Imaging
 I am currently working on model-data-driven methods in computational imaging.
 - [Surveys](#Surveys)
-- [Plug-and-Play](#Plug-and-Play)
+- [Deep PnP](#Deep_PnP)
 - [Deep Unfolding](#Deep_Unfolding)
 - [Others](#Others)
 - [Journals](#Journals)
