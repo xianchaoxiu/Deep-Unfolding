@@ -100,7 +100,7 @@ I am currently working on model-data-driven methods in computational imaging.
 - [2019] Neumann Networks for Linear Inverse Problems in Imaging, IEEE TCI [[Paper](https://ieeexplore.ieee.org/abstract/document/8878159)]
 - [2019] Combining Generative and Discriminative Models for Hybrid Inference, NIPS [[Paper](https://proceedings.neurips.cc/paper/2019/hash/a660d4563b8f62dd5282319cc643d950-Abstract.html)]
 - [2017] Deep Convolutional Neural Network for Inverse Problems in Imaging, IEEE TIP  [[Paper](https://ieeexplore.ieee.org/abstract/document/7949028)] [[Matlab](https://github.com/panakino/FBPConvNet)]
-- [2017] Compressed Sensing using Generative Models, ICML [[Paper](http://proceedings.mlr.press/v70/bora17a.html)]
+- [2017] Compressed Sensing Using Generative Models, ICML [[Paper](http://proceedings.mlr.press/v70/bora17a.html)]
 - [2016] Fast, Exact and Multi-scale Inference for Semantic Image Segmentation with Deep Gaussian CRFs, ECCV [[Paper](https://link.springer.com/chapter/10.1007/978-3-319-46478-7_25)] 
 - [2016] Learning to Deblur, IEEE TPAMI  [[Paper](https://ieeexplore.ieee.org/abstract/document/7274732)] 
 - [2016] From Denoising to Compressed Sensing, IEEE TIT  [[Paper](https://ieeexplore.ieee.org/abstract/document/7457256)]  [[Matlab](https://github.com/ricedsp/D-AMP_Toolbox)]
