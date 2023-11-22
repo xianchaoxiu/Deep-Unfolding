@@ -41,7 +41,7 @@ I am currently working on model-data-driven methods in computational imaging.
 
 ## Deep PnP
 - [2023] PnP-ReG: Learned Regularizing Gradient for Plug-and-Play Gradient Descent, SIAM Journal on Imaging Sciences [[Paper](https://epubs.siam.org/doi/abs/10.1137/22M1490843)] 
-- [2023] Preconditioned Plug-and-Play ADMM with Locally Adjustable Denoiser for Image Restoration, SIAM Journal on Imaging Sciences [[Paper](https://epubs.siam.org/doi/abs/10.1137/22M1504809)] 
+- [2023] Preconditioned Plug-and-Play ADMM with Locally Adjustable Denoiser for Image Restoration, SIAM Journal on Imaging Sciences [[Paper](https://epubs.siam.org/doi/abs/10.1137/22M1504809)] [[Python](https://github.com/LEPENDUM/pnp)] 
 - [2023] Tuning-free Plug-and-Play Hyperspectral Image Deconvolution with Deep Priors, IEEE TGRS [[Paper](https://ieeexplore.ieee.org/abstract/document/10061448)] [[Python](https://github.com/xiuheng-wang/Tuning_free_PnP_HSI_deconvolution)]  
 - [2022] Proximal Denoiser for Convergent Plug-and-Play Optimization with Nonconvex Regularization, ICML [[Paper](https://proceedings.mlr.press/v162/hurault22a.html)] [[Python](https://github.com/samuro95/Prox-PnP)] 
 - [2022] Truncated Residual Based Plug-and-Play ADMM Algorithm for MRI Reconstruction, IEEE TCI  [[Paper](https://ieeexplore.ieee.org/abstract/document/9693216)] [[Python](https://github.com/Houruizhi/TRPA)] 
@@ -69,7 +69,7 @@ I am currently working on model-data-driven methods in computational imaging.
 <a name="Deep_Unfolding" />
 
 ## Deep Unfolding
-- [2023] Deep Equilibrium Models for Snapshot Compressive Imaging, AAAI [[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/25475)]
+- [2023] Deep Equilibrium Models for Snapshot Compressive Imaging, AAAI [[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/25475)]  [[Python](https://github.com/IndigoPurple/DEQSCI)]
 - [2023] Online Deep Equilibrium Learning for Regularization by Denoising, NIPS [[Paper](https://proceedings.neurips.cc/paper_files/paper/2022/hash/a2440e23f6a8c037eff1dc4f1156aa35-Abstract-Conference.html)]
 - [2022] Content-Aware Scalable Deep Compressed Sensing, IEEE TIP  [[Paper](https://ieeexplore.ieee.org/abstract/document/9854112)] [[Python](https://github.com/Guaishou74851/CASNet)]
 - [2021] Memory-Augmented Deep Unfolding Network for Compressive Sensing, ACM MM  [[Paper](https://dl.acm.org/doi/abs/10.1145/3474085.3475562)] 
