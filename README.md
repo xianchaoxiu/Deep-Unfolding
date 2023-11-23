@@ -138,4 +138,6 @@ I am currently working on model-data-driven methods in computational imaging.
 <a name="Tools" />
 
 ## Tools
+ 
+- SPORCO: SParse Optimization Research Code  [[Link](https://github.com/bwohlberg/sporco)]
 - SCICO: Scientific Computational Imaging Code  [[Link](https://github.com/lanl/scico)]
