@@ -42,7 +42,8 @@ I am currently working on model-data-driven methods in computational imaging.
 ## Deep PnP
 - [2023] PnP-ReG: Learned Regularizing Gradient for Plug-and-Play Gradient Descent, SIAM Journal on Imaging Sciences [[Paper](https://epubs.siam.org/doi/abs/10.1137/22M1490843)] 
 - [2023] Preconditioned Plug-and-Play ADMM with Locally Adjustable Denoiser for Image Restoration, SIAM Journal on Imaging Sciences [[Paper](https://epubs.siam.org/doi/abs/10.1137/22M1504809)] [[Python](https://github.com/LEPENDUM/pnp)] 
-- [2023] Tuning-free Plug-and-Play Hyperspectral Image Deconvolution with Deep Priors, IEEE TGRS [[Paper](https://ieeexplore.ieee.org/abstract/document/10061448)] [[Python](https://github.com/xiuheng-wang/Tuning_free_PnP_HSI_deconvolution)]  
+- [2023] Tuning-free Plug-and-Play Hyperspectral Image Deconvolution with Deep Priors, IEEE TGRS [[Paper](https://ieeexplore.ieee.org/abstract/document/10061448)] [[Python](https://github.com/xiuheng-wang/Tuning_free_PnP_HSI_deconvolution)]
+- [2022] Learning Deep Sparse Regularizers With Applications to Multi-View Clustering and Semi-Supervised Classification, IEEE TPAMI [[Paper](https://ieeexplore.ieee.org/document/9439159)]  [[Python](https://github.com/chenzl23/DSRL)] 
 - [2022] Proximal Denoiser for Convergent Plug-and-Play Optimization with Nonconvex Regularization, ICML [[Paper](https://proceedings.mlr.press/v162/hurault22a.html)] [[Python](https://github.com/samuro95/Prox-PnP)] 
 - [2022] Truncated Residual Based Plug-and-Play ADMM Algorithm for MRI Reconstruction, IEEE TCI  [[Paper](https://ieeexplore.ieee.org/abstract/document/9693216)] [[Python](https://github.com/Houruizhi/TRPA)] 
 - [2022] Tuning-Free Plug-and-Play Proximal Algorithm for Inverse Imaging Problems, Journal of Machine Learning Research [[Paper](https://jmlr.org/papers/v23/20-1297.html)] [[Python](https://github.com/Vandermode/TFPnP)]
