@@ -47,6 +47,7 @@ I am currently working on model-data-driven methods in computational imaging.
 - [2022] Truncated Residual Based Plug-and-Play ADMM Algorithm for MRI Reconstruction, IEEE TCI  [[Paper](https://ieeexplore.ieee.org/abstract/document/9693216)] [[Python](https://github.com/Houruizhi/TRPA)] 
 - [2022] Tuning-Free Plug-and-Play Proximal Algorithm for Inverse Imaging Problems, Journal of Machine Learning Research [[Paper](https://jmlr.org/papers/v23/20-1297.html)] [[Python](https://github.com/Vandermode/TFPnP)]
 - [2021] Deep-Learned Regularization and Proximal Operator for Image Compressive Sensing, IEEE TIP  [[Paper](https://ieeexplore.ieee.org/abstract/document/9459457)] [[Matlab](https://github.com/zjut-gwl/CSDRCANet)]
+- [2021] On Plug-and-Play Regularization Using Linear Denoisers, IEEE TIP  [[Paper](https://ieeexplore.ieee.org/document/9418516)] [[Matlab](https://github.com/rgavaska/Convergent-PnP)]
 - [2021] Scalable Plug-and-Play ADMM With Convergence Guarantees, IEEE TCI  [[Paper](https://ieeexplore.ieee.org/abstract/document/9473005)] [[Matlab](https://github.com/rgavaska/Convergent-PnP)]
 - [2021] Plug-and-Play Image Restoration with Deep Denoiser Prior, IEEE TAMI  [[Paper](https://ieeexplore.ieee.org/abstract/document/7744574)] [[Python](https://github.com/cszn/DPIR)]
 - [2021] Recovery Analysis for Plug-and-Play Priors using the Restricted Eigenvalue Condition, NIPS  [[Paper](https://proceedings.neurips.cc/paper_files/paper/2021/hash/2ea1202aed1e0ce30d41be4919b0cc99-Abstract.html)]
