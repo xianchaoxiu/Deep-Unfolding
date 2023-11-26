@@ -3,7 +3,7 @@ I am currently working on model-data-driven methods in computational imaging.
 - [Surveys](#Surveys)
 - [Deep PnP](#Deep_PnP)
 - [Deep Unfolding](#Deep_Unfolding)
-- [End to End](#End-to-End)
+- [End-to-End](#End-to-End)
 - [Journals](#Journals)
 - [Tools](#Tools)
 
@@ -118,7 +118,7 @@ I am currently working on model-data-driven methods in computational imaging.
 
 <a name="End-to-End" />
 
-## End to End
+## End-to-End
 - [2019] Image Compressed Sensing Using Convolutional Neural Network, IEEE TIP  [[Paper](https://ieeexplore.ieee.org/abstract/document/8765626)]
 - [2017] Deep Convolutional Neural Network for Inverse Problems in Imaging, IEEE TIP  [[Paper](https://ieeexplore.ieee.org/abstract/document/7949028)] [[Matlab](https://github.com/panakino/FBPConvNet)]
 - [2017] Compressed Sensing Using Generative Models, ICML [[Paper](http://proceedings.mlr.press/v70/bora17a.html)]
