@@ -23,7 +23,7 @@ I am currently working on model-data-driven methods in computational imaging.
 - [2023] Model-Based Deep Learning, Foundations and Trends in Signal Processing [[Paper](https://www.nowpublishers.com/article/Details/SIG-113)] [[Python](https://github.com/ShlezingerLab/MBDL_Book)]
 - [2023] Signal Decomposition Using Masked Proximal Operators, Foundations and Trends in Signal Processing [[Paper](https://www.nowpublishers.com/article/Details/SIG-122)]
 - [2023] Solving Inverse Problems With Deep Neural Networks – Robustness Included? IEEE TPAMI [[Paper](https://ieeexplore.ieee.org/abstract/document/9705105)]
-- [2022] Foundations of Computational Imaging: A Model-Based Approach, SIAM Press[[Book](https://epubs.siam.org/doi/book/10.1137/1.9781611977134)]
+- [2022] Foundations of Computational Imaging: A Model-Based Approach, SIAM Press [[Book](https://epubs.siam.org/doi/book/10.1137/1.9781611977134)]
 - [2022] Learning to Optimize: A Primer and A Benchmark, Journal of Machine Learning Research [[Paper](https://dl.acm.org/doi/abs/10.5555/3586589.3586778)] [[Python](https://github.com/VITA-Group/Open-L2O)]
 - [2021] Algorithm Unrolling: Interpretable, Efficient Deep Learning for Signal and Image Processing, IEEE SPM  [[Paper](https://ieeexplore.ieee.org/abstract/document/9363511)]
 - [2021] Deep Learning for Image Super-Resolution: A Survey, IEEE TPAMI  [[Paper](https://ieeexplore.ieee.org/abstract/document/9044873)]
