@@ -143,3 +143,4 @@ I am currently working on model-data-driven methods in computational imaging.
  
 - SPORCO: Sparse Optimization Research Code  [[Link](https://github.com/bwohlberg/sporco)]
 - SCICO: Scientific Computational Imaging Code  [[Link](https://github.com/lanl/scico)]
+- LibADMM: A Library of ADMM for Sparse and Low-rank Optimization [[Link](https://github.com/canyilu/LibADMM-toolbox)]
