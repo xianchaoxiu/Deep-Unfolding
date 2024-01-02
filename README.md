@@ -1,5 +1,5 @@
 # Computational Imaging
-I am currently working on model-data-driven methods in Computational Imaging.
+I am currently working on model-data-driven methods in computational imaging.
 - [Surveys](#Surveys)
 - [Deep PnP](#Deep_PnP)
 - [Deep Unfolding](#Deep_Unfolding)
