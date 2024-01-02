@@ -1,5 +1,5 @@
-# Learned Optimization
-I am currently working on model-data-driven methods in optimization.
+# Computational Imaging
+I am currently working on model-data-driven methods in Computational Imaging.
 - [Surveys](#Surveys)
 - [Deep PnP](#Deep_PnP)
 - [Deep Unfolding](#Deep_Unfolding)
