@@ -4,8 +4,7 @@ I am currently working on model-data-driven methods in computational imaging.
 - [Deep PnP](#Deep_PnP)
 - [Deep Unfolding](#Deep_Unfolding)
 - [Beyond](#Beyond)
-- [Journals](#Journals)
-- [Tools](#Tools)
+- [Links](#Links)
 
   
 <strong> Last Update: 2023/11/20 </strong>
@@ -128,19 +127,16 @@ I am currently working on model-data-driven methods in computational imaging.
 
 
 
-<a name="Journals" />
+<a name="Links" />
 
-## Journals
+## Links
+### Journals
 - IEEE Transactions on Image Processing [[Link](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=83)]
 - IEEE Transactions on Computational Imaging [[Link](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6745852)]
 - SIAM Journal on Imaging Sciences [[Link](https://epubs.siam.org/journal/sjisbi)]
 
 
-
-<a name="Tools" />
-
-## Tools
- 
+### Tools
 - SPORCO: Sparse Optimization Research Code  [[Link](https://github.com/bwohlberg/sporco)]
 - SCICO: Scientific Computational Imaging Code  [[Link](https://github.com/lanl/scico)]
 - LibADMM: A Library of ADMM for Sparse and Low-rank Optimization [[Link](https://github.com/canyilu/LibADMM-toolbox)]
