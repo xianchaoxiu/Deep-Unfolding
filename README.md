@@ -1,5 +1,5 @@
 # Interpretable Networks
-I am currently working on interpretable neural networks with wide applications.
+I am currently working on interpretable neural networks with wide applications in signal and image processing.
 - [Surveys](#Surveys)
 - [Deep PnP](#Deep_PnP)
 - [Deep Unfolding](#Deep_Unfolding)
