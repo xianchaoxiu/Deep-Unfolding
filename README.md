@@ -4,6 +4,7 @@ I am currently working on interpretable neural networks with wide applications.
 - [Deep PnP](#Deep_PnP)
 - [Deep Unfolding](#Deep_Unfolding)
 - [Beyond](#Beyond)
+- [Applications](#Applications)
 - [Links](#Links)
 
   
@@ -124,6 +125,11 @@ I am currently working on interpretable neural networks with wide applications.
 - [2016] ReconNet: Non-Iterative Reconstruction of Images From Compressively Sensed Measurements, CVPR [[Paper](https://openaccess.thecvf.com/content_cvpr_2016/html/Kulkarni_ReconNet_Non-Iterative_Reconstruction_CVPR_2016_paper.html)] 
 - [2016] A deep learning approach to structured signal recovery, IEEE ALLERTON  [[Paper](https://ieeexplore.ieee.org/abstract/document/7447163)] 
 
+<a name="Applications" />
+
+## Applications
+
+### Fault Diagnosis
 
 
 
