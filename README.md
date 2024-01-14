@@ -1,4 +1,8 @@
 # Interpretable Networks
+<p align="center">
+  <img src="images/dl.png" width="600">
+  <br>
+</p>
 I am currently working on interpretable neural networks with wide applications in signal and image processing.
 - [Surveys](#Surveys)
 - [Deep PnP](#Deep_PnP)
