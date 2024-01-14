@@ -3,7 +3,6 @@ I am currently working on interpretable neural networks with wide applications.
 - [Surveys](#Surveys)
 - [Deep PnP](#Deep_PnP)
 - [Deep Unfolding](#Deep_Unfolding)
-- [Beyond](#Beyond)
 - [Applications](#Applications)
 - [Links](#Links)
 
@@ -43,8 +42,6 @@ I am currently working on interpretable neural networks with wide applications.
 ## Deep PnP
 - [2023] PnP-ReG: Learned Regularizing Gradient for Plug-and-Play Gradient Descent, SIAM Journal on Imaging Sciences [[Paper](https://epubs.siam.org/doi/abs/10.1137/22M1490843)] 
 - [2023] Preconditioned Plug-and-Play ADMM with Locally Adjustable Denoiser for Image Restoration, SIAM Journal on Imaging Sciences [[Paper](https://epubs.siam.org/doi/abs/10.1137/22M1504809)] [[Python](https://github.com/LEPENDUM/pnp)] 
-- [2023] Tuning-free Plug-and-Play Hyperspectral Image Deconvolution with Deep Priors, IEEE TGRS [[Paper](https://ieeexplore.ieee.org/abstract/document/10061448)] [[Python](https://github.com/xiuheng-wang/Tuning_free_PnP_HSI_deconvolution)]
-- [2022] Learning Deep Sparse Regularizers With Applications to Multi-View Clustering and Semi-Supervised Classification, IEEE TPAMI [[Paper](https://ieeexplore.ieee.org/document/9439159)]  [[Python](https://github.com/chenzl23/DSRL)] 
 - [2022] Proximal Denoiser for Convergent Plug-and-Play Optimization with Nonconvex Regularization, ICML [[Paper](https://proceedings.mlr.press/v162/hurault22a.html)] [[Python](https://github.com/samuro95/Prox-PnP)] 
 - [2022] Truncated Residual Based Plug-and-Play ADMM Algorithm for MRI Reconstruction, IEEE TCI  [[Paper](https://ieeexplore.ieee.org/abstract/document/9693216)] [[Python](https://github.com/Houruizhi/TRPA)] 
 - [2022] Tuning-Free Plug-and-Play Proximal Algorithm for Inverse Imaging Problems, Journal of Machine Learning Research [[Paper](https://jmlr.org/papers/v23/20-1297.html)] [[Python](https://github.com/Vandermode/TFPnP)]
@@ -61,7 +58,6 @@ I am currently working on interpretable neural networks with wide applications.
 - [2019] An Online Plug-and-Play Algorithm for Regularized Image Reconstruction, IEEE TCI  [[Paper](https://ieeexplore.ieee.org/abstract/document/8616843)] [[Matlab](https://github.com/sunyumark/2019-TCI-OnlinePnP)]
 - [2019] Plug-and-Play Methods Provably Converge with Properly Trained Denoisers, ICML [[Paper](https://proceedings.mlr.press/v97/ryu19a.html)] [[Python](https://github.com/uclaopt/Provable_Plug_and_Play)]
 - [2019] MoDL: Model-Based Deep Learning Architecture for Inverse Problems, IEEE TMI [[Paper](https://ieeexplore.ieee.org/abstract/document/8434321)] 
-- [2018] FFDNet: Toward a Fast and Flexible Solution for CNN-Based Image Denoising, IEEE TIP [[Paper](https://ieeexplore.ieee.org/abstract/document/8365806)] [[Matlab](https://github.com/cszn/FFDNet)]
 - [2018] Plug-and-Play Unplugged: Optimization-Free Reconstruction Using Consensus Equilibrium, SIAM Journal on Imaging Sciences  [[Paper](https://epubs.siam.org/doi/abs/10.1137/17M1122451)]  [[Python](https://github.com/gbuzzard/PnP-MACE)]
 - [2017] The Little Engine That Could: Regularization by Denoising (RED), SIAM Journal on Imaging Sciences  [[Paper](https://epubs.siam.org/doi/abs/10.1137/16M1102884)]  [[Matlab](https://github.com/google/RED)]
 - [2017] Plug-and-Play ADMM for Image Restoration: Fixed-Point Convergence and Applications, IEEE TCI  [[Paper](https://ieeexplore.ieee.org/abstract/document/7744574)] [[Matlab](https://www.mathworks.com/matlabcentral/fileexchange/60641-plug-and-play-admm-for-image-restoration)]
@@ -115,22 +111,27 @@ I am currently working on interpretable neural networks with wide applications.
 
 
 
+<a name="Applications" />
 
-<a name="Beyond" />
+## Applications
 
-## Beyond
+### Image Denoising
+- [2023] Tuning-free Plug-and-Play Hyperspectral Image Deconvolution with Deep Priors, IEEE TGRS [[Paper](https://ieeexplore.ieee.org/abstract/document/10061448)] [[Python](https://github.com/xiuheng-wang/Tuning_free_PnP_HSI_deconvolution)]
+- [2022] Learning Deep Sparse Regularizers With Applications to Multi-View Clustering and Semi-Supervised Classification, IEEE TPAMI [[Paper](https://ieeexplore.ieee.org/document/9439159)]  [[Python](https://github.com/chenzl23/DSRL)]
+- [2020] ADMM-CSNet: A Deep Learning Approach for Image Compressive Sensing, IEEE TPAMI [[Paper](https://ieeexplore.ieee.org/abstract/document/8550778)] [[Python](https://github.com/yangyan92/Pytorch_ADMM-CSNet)]
 - [2019] Image Compressed Sensing Using Convolutional Neural Network, IEEE TIP  [[Paper](https://ieeexplore.ieee.org/abstract/document/8765626)]
+- [2018] FFDNet: Toward a Fast and Flexible Solution for CNN-Based Image Denoising, IEEE TIP [[Paper](https://ieeexplore.ieee.org/abstract/document/8365806)] [[Matlab](https://github.com/cszn/FFDNet)]
 - [2017] Deep Convolutional Neural Network for Inverse Problems in Imaging, IEEE TIP  [[Paper](https://ieeexplore.ieee.org/abstract/document/7949028)] [[Matlab](https://github.com/panakino/FBPConvNet)]
 - [2017] Compressed Sensing Using Generative Models, ICML [[Paper](http://proceedings.mlr.press/v70/bora17a.html)]
 - [2016] ReconNet: Non-Iterative Reconstruction of Images From Compressively Sensed Measurements, CVPR [[Paper](https://openaccess.thecvf.com/content_cvpr_2016/html/Kulkarni_ReconNet_Non-Iterative_Reconstruction_CVPR_2016_paper.html)] 
 - [2016] A deep learning approach to structured signal recovery, IEEE ALLERTON  [[Paper](https://ieeexplore.ieee.org/abstract/document/7447163)] 
 
-<a name="Applications" />
-
-## Applications
 
 ### Fault Diagnosis
-
+- [2023] Adversarial Algorithm Unrolling Network for Interpretable Mechanical Anomaly Detection, IEEE TNNLS  [[Paper](https://ieeexplore.ieee.org/abstract/document/10070389)]
+- [2023] Adversarial Algorithm Unrolling Network for Interpretable Mechanical Anomaly Detection, IEEE JSEN  [[Paper](https://ieeexplore.ieee.org/abstract/document/10323305)]
+- [2022] Interpretable Neural Network via Algorithm Unrolling for Mechanical Fault Diagnosis, IEEE TIM  [[Paper](https://ieeexplore.ieee.org/abstract/document/9817047)]
+- [2022] Model-driven deep unrolling: Towards interpretable deep learning against noise attacks for intelligent fault diagnosis, ISA Transactions  [[Paper](https://www.sciencedirect.com/science/article/abs/pii/S0019057822000878)]
 
 
 <a name="Links" />
