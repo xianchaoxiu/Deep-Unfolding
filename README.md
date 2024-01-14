@@ -1,6 +1,7 @@
 # Interpretable Networks
 <p align="center">
   <img src="images/dl.png" width="600">
+  (From Physics-Inspired Compressive Sensing: Beyond Deep Unrolling)
   <br>
 </p>
 I am currently working on interpretable neural networks with wide applications in signal and image processing.
