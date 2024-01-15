@@ -134,6 +134,7 @@ I am currently working on interpretable neural networks with wide applications i
 
 
 ### Fault Diagnosis
+- [2023] 可解释机械智能诊断技术的研究进展与挑战, 机械工程学报 [[Paper](http://www.cjmenet.com.cn/CN/abstract/abstract26822.shtml)]
 - [2023] Adversarial Algorithm Unrolling Network for Interpretable Mechanical Anomaly Detection, IEEE TNNLS  [[Paper](https://ieeexplore.ieee.org/abstract/document/10070389)]
 - [2023] Adversarial Algorithm Unrolling Network for Interpretable Mechanical Anomaly Detection, IEEE JSEN  [[Paper](https://ieeexplore.ieee.org/abstract/document/10323305)]
 - [2022] Interpretable Neural Network via Algorithm Unrolling for Mechanical Fault Diagnosis, IEEE TIM  [[Paper](https://ieeexplore.ieee.org/abstract/document/9817047)]
