@@ -30,6 +30,7 @@ I am currently working on interpretable neural networks with wide applications i
 - [2023] Solving Inverse Problems With Deep Neural Networks – Robustness Included? IEEE TPAMI [[Paper](https://ieeexplore.ieee.org/abstract/document/9705105)]
 - [2022] Foundations of Computational Imaging: A Model-Based Approach, SIAM Press [[Book](https://epubs.siam.org/doi/book/10.1137/1.9781611977134)]
 - [2022] Learning to Optimize: A Primer and A Benchmark, Journal of Machine Learning Research [[Paper](https://dl.acm.org/doi/abs/10.5555/3586589.3586778)] [[Python](https://github.com/VITA-Group/Open-L2O)]
+- [2021] Physics-Informed Machine Learning, Nature Reviews Physics [[Paper](https://www.nature.com/articles/s42254-021-00314-5)]
 - [2021] Algorithm Unrolling: Interpretable, Efficient Deep Learning for Signal and Image Processing, IEEE SPM  [[Paper](https://ieeexplore.ieee.org/abstract/document/9363511)]
 - [2021] Deep Learning for Image Super-Resolution: A Survey, IEEE TPAMI  [[Paper](https://ieeexplore.ieee.org/abstract/document/9044873)]
 - [2021] Model-based Reconstruction with Learning: From Unsupervised to Supervised and Beyond, arXiv  [[Paper](https://arxiv.org/abs/2103.14528)]
