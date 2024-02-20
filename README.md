@@ -1,4 +1,4 @@
-# Interpretable Deep Learning
+# Interpretable Network
 <p align="center">
   <img src="images/dl.png" width="600"> <br>
   (From Physics-Inspired Compressive Sensing: Beyond Deep Unrolling)
