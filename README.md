@@ -137,10 +137,16 @@ I am currently working on interpretable neural networks with wide applications i
 
 ### Fault Diagnosis
 - [2023] 可解释机械智能诊断技术的研究进展与挑战, 机械工程学报 [[Paper](http://www.cjmenet.com.cn/CN/abstract/abstract26822.shtml)]
-- [2023] Adversarial Algorithm Unrolling Network for Interpretable Mechanical Anomaly Detection, IEEE TNNLS  [[Paper](https://ieeexplore.ieee.org/abstract/document/10070389)]
-- [2023] A Novel Interpretable Model via Algorithm Unrolling for Intelligent Fault Diagnosis of Machinery, IEEE JSEN  [[Paper](https://ieeexplore.ieee.org/abstract/document/10323305)]
+- [2023] Adversarial Algorithm Unrolling Network for Interpretable Mechanical Anomaly Detection, IEEE TNNLS [[Paper](https://ieeexplore.ieee.org/abstract/document/10070389)]
+- [2023] A Novel Interpretable Model via Algorithm Unrolling for Intelligent Fault Diagnosis of Machinery, IEEE JSEN [[Paper](https://ieeexplore.ieee.org/abstract/document/10323305)]
+- [2023] Attention-Embedded Quadratic Network (Qttention) for Effective and Interpretable Bearing Fault Diagnosis, IEEE TIM [[Paper](https://ieeexplore.ieee.org/abstract/document/10076833)]
+- [2023] Auto-Embedding Transformer for Interpretable Few-Shot Fault Diagnosis of Rolling Bearings, IEEE TR [[Paper](https://ieeexplore.ieee.org/abstract/document/10315955)]
 - [2022] Interpretable Neural Network via Algorithm Unrolling for Mechanical Fault Diagnosis, IEEE TIM  [[Paper](https://ieeexplore.ieee.org/abstract/document/9817047)]
-- [2022] Model-driven deep unrolling: Towards interpretable deep learning against noise attacks for intelligent fault diagnosis, ISA Transactions  [[Paper](https://www.sciencedirect.com/science/article/abs/pii/S0019057822000878)]
+- [2022] Model-Driven Deep Unrolling: Towards Interpretable Deep Learning against Noise Attacks for Intelligent Fault Diagnosis, ISA Transactions [[Paper](https://www.sciencedirect.com/science/article/abs/pii/S0019057822000878)]
+- [2022] Variational Attention-Based Interpretable Transformer Network for Rotary Machine Fault Diagnosis, IEEE TNNLS [[Paper](https://ieeexplore.ieee.org/abstract/document/9887963)]
+- [2022] Prior Knowledge-Augmented Self-Supervised Feature Learning for Few-Shot Intelligent Fault Diagnosis of Machines, IEEE TIE [[Paper](https://ieeexplore.ieee.org/abstract/document/9677916)]
+- [2021] An Interpretable Data Augmentation Scheme for Machine Fault Diagnosis Based on A Sparsity-Constrained Generative Adversarial Network, Expert Systems with Applications [[Paper](https://www.sciencedirect.com/science/article/abs/pii/S0957417421006667)]
+- [2020] A New Interpretable Learning Method for Fault Diagnosis of Rolling Bearings, IEEE TIM [[Paper](https://ieeexplore.ieee.org/abstract/document/9290108)]
 
 
 <a name="Links" />
