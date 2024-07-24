@@ -36,11 +36,20 @@ I am currently working on deep unfolding networks with wide applications in sign
 
 
 
-<a name="Deep_Unfolding" />
+<a name="Deep_Learning" />
 
-## Deep Unfolding
+### Deep Learning
+
+
+<a name="Adaptive_Learning" />
+
+### Adaptive Learning
+
+- [2024] RPCANet：Deep Unfolding RPCA Based Infrared Small Target Detection, WACV [[Paper](https://openaccess.thecvf.com/content/WACV2024/html/Wu_RPCANet_Deep_Unfolding_RPCA_Based_Infrared_Small_Target_Detection_WACV_2024_paper.html)]
+[[Python](https://github.com/fengyiwu98/RPCANet)] [[Video](https://www.bilibili.com/video/BV1JZ421g7K5/?spm_id_from=333.788.recommend_more_video.3&vd_source=6605f0f4fa55607ac4ed947eaf69e791)] 
 - [2023] Deep Equilibrium Models for Snapshot Compressive Imaging, AAAI [[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/25475)]  [[Python](https://github.com/IndigoPurple/DEQSCI)]
 - [2023] Online Deep Equilibrium Learning for Regularization by Denoising, NIPS [[Paper](https://proceedings.neurips.cc/paper_files/paper/2022/hash/a2440e23f6a8c037eff1dc4f1156aa35-Abstract-Conference.html)]
+- [2022] Learning Deep Sparse Regularizers With Applications to Multi-View Clustering and Semi-Supervised Classification, IEEE TPAMI [[Paper](https://ieeexplore.ieee.org/document/9439159)]  [[Python](https://github.com/chenzl23/DSRL)]
 - [2022] Content-Aware Scalable Deep Compressed Sensing, IEEE TIP  [[Paper](https://ieeexplore.ieee.org/abstract/document/9854112)] [[Python](https://github.com/Guaishou74851/CASNet)]
 - [2021] Memory-Augmented Deep Unfolding Network for Compressive Sensing, ACM MM  [[Paper](https://dl.acm.org/doi/abs/10.1145/3474085.3475562)] 
 - [2021] ISTA-NET++: Flexible Deep Unfolding Network for Compressive Sensing, IEEE ICME  [[Paper](https://ieeexplore.ieee.org/abstract/document/9428249)]  [[Python](https://github.com/jianzhangcs/ISTA-Netpp)]
@@ -63,6 +72,7 @@ I am currently working on deep unfolding networks with wide applications in sign
 - [2020] Efficient and Interpretable Deep Blind Image Deblurring Via Algorithm Unrolling, IEEE TCI  [[Paper](https://ieeexplore.ieee.org/abstract/document/8950351)]
 - [2020] Invertible Image Rescaling, ECCV  [[Paper](https://link.springer.com/chapter/10.1007/978-3-030-58452-8_8)]
 - [2020] On the Convergence of Learning-Based Iterative Methods for Nonconvex Inverse Problemss, IEEE TPAMI [[Paper](https://ieeexplore.ieee.org/abstract/document/8727950)] [[Matlab](https://github.com/Heyi007/FIMAt)]
+- [2020] ADMM-CSNet: A Deep Learning Approach for Image Compressive Sensing, IEEE TPAMI [[Paper](https://ieeexplore.ieee.org/abstract/document/8550778)] [[Python](https://github.com/yangyan92/Pytorch_ADMM-CSNet)]
 - [2019] Deep Tensor ADMM-Net for Snapshot Compressive Imaging, ICCV [[Paper](https://openaccess.thecvf.com/content_ICCV_2019/html/Ma_Deep_Tensor_ADMM-Net_for_Snapshot_Compressive_Imaging_ICCV_2019_paper.html)]
 - [2019] Learning a Compressed Sensing Measurement Matrix via Gradient Unrolling, ICML [[Paper](https://proceedings.mlr.press/v97/wu19b.html)]
 - [2019] Learning to Detect, IEEE TSP [[Paper](https://ieeexplore.ieee.org/abstract/document/8642915)] 
@@ -80,14 +90,9 @@ I am currently working on deep unfolding networks with wide applications in sign
 
 
 
-- [2022] Learning Deep Sparse Regularizers With Applications to Multi-View Clustering and Semi-Supervised Classification, IEEE TPAMI [[Paper](https://ieeexplore.ieee.org/document/9439159)]  [[Python](https://github.com/chenzl23/DSRL)]
-- [2020] ADMM-CSNet: A Deep Learning Approach for Image Compressive Sensing, IEEE TPAMI [[Paper](https://ieeexplore.ieee.org/abstract/document/8550778)] [[Python](https://github.com/yangyan92/Pytorch_ADMM-CSNet)]
 
+<a name="Journals" />
 
-
-<a name="Links" />
-
-## Links
 ### Journals
 - IEEE Transactions on Image Processing [[Link](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=83)]
 - IEEE Transactions on Computational Imaging [[Link](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6745852)]
