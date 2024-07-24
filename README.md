@@ -40,6 +40,9 @@ I am currently working on deep unfolding networks with wide applications in sign
 
 ### Deep Learning
 
+- [2010] Learning Fast Approximations of Sparse Coding, ICML [[Paper](https://dl.acm.org/doi/abs/10.5555/3104322.3104374)] [[Matlab](https://github.com/minhnhat93/lfa_sc)]
+
+
 
 <a name="Adaptive_Learning" />
 
@@ -84,9 +87,6 @@ I am currently working on deep unfolding networks with wide applications in sign
 - [2016] Learning to Deblur, IEEE TPAMI  [[Paper](https://ieeexplore.ieee.org/abstract/document/7274732)] 
 - [2016] Learning to Learn by Gradient Descent by Gradient Descent, NIPS [[Paper](https://proceedings.neurips.cc/paper_files/paper/2016/hash/fb87582825f9d28a8d42c5e5e5e8b23d-Abstract.html)] [[Python](https://github.com/chenwydj/learning-to-learn-by-gradient-descent-by-gradient-descent)]
 - [2015] Learning Efficient Sparse and Low Rank Models, IEEE TPAMI [[Paper](https://ieeexplore.ieee.org/abstract/document/7010964)]
-- [2010] Learning Fast Approximations of Sparse Coding, ICML [[Paper](https://dl.acm.org/doi/abs/10.5555/3104322.3104374)] [[Matlab](https://github.com/minhnhat93/lfa_sc)]
-
-
 
 
 
