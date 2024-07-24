@@ -2,8 +2,8 @@
 
 I am currently working on deep unfolding networks with wide applications in signal and image processing.
 - [Surveys](#Surveys)
-- [Deep Unfolding](#Deep_Unfolding)
-- [Deep Unfolding](#Deep_Unfolding)
+- [Deep Learning](#Deep_Learning)
+- [Adaptive Learning](#Adaptive_Learning)
 - [Links](#Links)
 
   
